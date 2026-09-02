@@ -1609,23 +1609,7 @@ section .container {
         0 0 20px #FF9A00;
 }
 
-@media (max-width: 1200px) {
-  .tools-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
-@media (max-width: 768px) {
-  .tools-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .tools-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact
